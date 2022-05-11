@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'roboto';
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    height: 60px;
+    
+    
+}
+#navbar .navbar-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+#navbar .navbar-container .logo{
+    width: auto;
+    height: 30px;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+}
+#navbar .navbar-container ul li{
+   padding: 0 10px;
+   cursor: pointer;
+   transition: all ease .3s;
+}
+#navbar .navbar-container ul li:hover{
+    color: rgb(30,215,96);
+}
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.premium{
+    flex: 1;
+    background-color: darkorchid;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.premium .leftside{
+    padding: 0 40px;
+    max-width: 700px;
+}
+.premium .leftside .info{
+  color: white;
+}
+span{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.meses{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 50px;
+    transition: all ease .3s;
+}
+.btn a:hover{
+    background-color: green ;
+}
+.anuncio-rodape{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.premium .rightside img{
+    width: 250px;
+    margin-right: 120px;
+}
+.free{
+    flex: 1;
+    background-color:rgb(41,65,171);
+    background-image: url(./assets/bg.png);
+   
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    
+}
+.free .leftside-free{
+    padding: 0 40px 10px;
+    margin-top: 20px;
+    max-width: 700px;
+    color:rgb(30,215,96)
+
+}
+.free .leftside-free p{
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.texto-spot-free{
+    font-size: 12px;
+    color:rgb(30,215,96)
+
+}
+.info-free{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn-free a{
+    display: inline-block;
+    background-color: rgb(30,215,96);
+    color: rgb(41,65,171);
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 50px;
+    transition: all ease .3s;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-free a:hover{
+    color: white;
+}
